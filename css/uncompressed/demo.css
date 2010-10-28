@@ -95,6 +95,6 @@ p {
 
 .elem a {
   position: absolute;
-  padding: 0 3px;
+  margin-top: -3px;
   display: none;
 }
