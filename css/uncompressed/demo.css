@@ -1,0 +1,100 @@
+body {
+  background: #444;
+  border-top: 5px solid #000;
+  font: normal normal normal 87.5%/normal 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 0 20px;
+  color: #C2D7FF;
+  text-shadow: rgba(0, 0, 0, 0.699219) 0px 1px 0px;
+}
+
+a {
+  color: white;
+  background: #41679A;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+a.selected, a:hover {
+  background: #19273A;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: -3px;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.699219) 0px 3px 3px;
+}
+
+h2 {
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+p {
+  border: 1px solid #41679A;
+  overflow: hidden;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.grid {
+  margin-bottom: 10px;
+  background: #2E496D;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  padding: 10px 0;
+}
+
+.grid label {
+  padding-left: 10px;
+}
+
+.grid p {
+  padding: 10px 0;
+}
+
+.container_12 {
+  background: #19273A;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.clonable {
+  display: none;
+}
+
+.elems {
+  min-height: 30px;
+  margin-top: 10px;
+}
+
+.elem-placeholder {
+  background: #444;
+  height: 40px;
+}
+
+.elem {
+  background: #2E496D;
+}
+
+.grid_menu {
+  opacity: 0.3;
+  -moz-opacity: 0.3;
+  filter:alpha(opacity=30);;
+}
+
+.elem a {
+  position: absolute;
+  padding: 0 3px;
+  display: none;
+}
