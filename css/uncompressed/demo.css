@@ -96,5 +96,6 @@ p {
 .elem a {
   position: absolute;
   margin-top: -3px;
+  margin-left: 5px;
   display: none;
 }
