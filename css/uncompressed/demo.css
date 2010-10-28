@@ -36,7 +36,12 @@ h2 {
   text-align: center;
 }
 
-p {
+p.instructions {
+  color: #888;
+  font-size: 90%;
+}
+
+.container_12 p {
   border: 1px solid #41679A;
   overflow: hidden;
   text-align: center;
